@@ -1,0 +1,226 @@
+.section-1 {
+    background: linear-gradient(#00000000, #000000D6);
+    background-image: url(Assest/Object.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.nav-but {
+    font-family: "DMSans", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    /* leading-trim: NONE; */
+    line-height: 100%;
+    letter-spacing: -0.38px;
+
+    @media screen and (max-width: 767px) {
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur();
+
+    }
+}
+
+#but-1 {
+    @media screen and (min-width: 1044px) {
+        padding: 0.8rem 2.5rem !important;
+        margin-right: -10rem !important;
+    }
+
+    font-family: DMSans;
+    font-weight: 700;
+    font-size: 17px;
+    /* leading-trim: NONE; */
+    line-height: 100%;
+    letter-spacing: -0.43px;
+    /* background-color: #FFAC12; */
+    border-radius: 0 1rem 0 0;
+}
+
+.beauty-container {
+    padding-top: calc(100vh-600px);
+    width: 100%;
+}
+
+.beauty {
+
+    /* for font on destop and pc */
+    @media screen and (min-width: 1050px) {
+        font-weight: 700;
+        font-size: 70px !important;
+        width: 80% !important;
+    }
+
+    font-family: DMSans;
+    font-weight: 700;
+    font-size: 50px;
+    leading-trim: NONE;
+    /* line-height: 80px; */
+    letter-spacing: -2.01px;
+    width: 70%;
+    color: #ffffff;
+}
+
+.beauty-text {
+    font-family: "DMSans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    width: 70%;
+}
+
+.list-box {}
+
+.list {
+    font-family: "DMSans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: -0.5px;
+    color: #000000;
+    /* width: 80%; */
+}
+
+/* .container-2{
+    width: 100%;
+} */
+
+
+
+/* text properties */
+.hands-head {
+    font-family: "DMSans", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: -1.26px;
+
+}
+
+.hands-text {
+    font-family: "DMSans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+}
+
+.mansion {
+    background-color: #F5F5F5;
+    width: 100% !important;
+}
+
+.live {
+    @media screen and (mix-width: 1200px) {
+        font-size: 50px !important;
+    }
+
+    font-family: "DMSans",
+    sans-serif,
+    sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: -1.26px;
+}
+
+.menu-drop {
+    font-family: "DMSans", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: -0.43px;
+}
+
+.section-3 {
+    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+    width: 100% !important;
+}
+
+/* button for the learn more with black background attribute */
+#but-2 {
+    @media screen and (min-width: 1044px) {
+        padding: 0.8rem 2.5rem !important;
+        margin-right: 0rem !important;
+    }
+
+    font-family: "DMSans",
+    sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    /* leading-trim: NONE; */
+    line-height: 100%;
+    letter-spacing: -0.43px;
+    /* background-color: #FFAC12; */
+    border-radius: 0 1rem 0 0;
+}
+
+/* sytling for text for witness */
+.certe {
+    font-family: "DMSans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: -0.6px;
+
+}
+
+.end-text {
+    font-family: "DMSans", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: -1.06px;
+}
+
+.end-real {
+    background: linear-gradient(139.15deg, #FFAC12 5.46%, #C87224 96.96%);
+    background: transparent;
+    color: linear-gradient;
+    color: #FFAC12;
+}
+
+.sec {
+    @media screen and (min-width) {
+        display: flex;
+    }
+}
+
+.col-head {
+    font-family: "DMSans", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: -0.38px;
+
+}
+
+.col-text {
+    font-family: DMSans;
+    font-weight: 400;
+    font-size: 15px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: -0.38px;
+    color: #979797;
+}
